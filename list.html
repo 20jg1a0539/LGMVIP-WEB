@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="list.css">
+    <script src="https://kit.fontawesome.com/6ccdd39db5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav>TO-DO LIST</nav>
+        <div class="input">
+            <input type="text" id="item" placeholder="Enter task to be added.." required>
+            <div class="buttons">
+                <button id="add-task">Add Task</button>
+                <button id="del-task">Delete All Tasks</button>
+            </div>
+        </div>
+        <h2>No task to do!!</h2>
+        <div class="tasks">
+            <div class="menu">
+                <ol id="list"></ol>
+            </div>
+        </div>
+    </div>
+    <script src="list.js"></script>
+</body>
+
+</html>
